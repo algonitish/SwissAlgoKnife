@@ -1,6 +1,8 @@
 # SwissAlgoKnife
 Utilities to automate small daily tasks for algo traders.
 
+WARNING: Based on https://github.com/PySimpleGUI/, these are one shot windows. Plan your workflow, or be prepared to open and close the application in entirety since a window once closed cannot be opened again. As soon as there's a solution for this, this warning will be removed.
+
 **Project Structure:**
 
     SwissAlgoKnife
