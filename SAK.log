@@ -1,0 +1,605 @@
+{"time": 11/13/2019 11:36:28 PM, "module": IBKR_Allinone, "function_name": main, "line_number": 107, "message": Window created.}
+{"time": 11/13/2019 11:43:09 PM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 21, "message": IBKR:Connect launched}
+{"time": 11/13/2019 11:43:13 PM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 30, "message": Asked to connect.}
+{"time": 11/13/2019 11:43:13 PM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 32, "message": Trying to connect.}
+{"time": 11/13/2019 11:43:13 PM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 33, "message": 127.0.0.1 7496 101}
+{"time": 11/13/2019 11:43:13 PM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7496 with clientId 101...}
+{"time": 11/13/2019 11:43:13 PM, "module": client, "function_name": disconnect, "line_number": 237, "message": Disconnecting}
+{"time": 11/13/2019 11:43:13 PM, "module": client, "function_name": connectAsync, "line_number": 225, "message": API connection failed: ConnectionRefusedError(111, "Connect call failed ('127.0.0.1', 7496)")}
+{"time": 11/13/2019 11:43:13 PM, "module": client, "function_name": connectAsync, "line_number": 228, "message": Make sure API port on TWS/IBG is open}
+{"time": 11/13/2019 11:43:13 PM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 41, "message": Connection Refused!}
+{"time": 11/13/2019 11:43:18 PM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 26, "message": exit hit}
+{"time": 11/14/2019 12:16:18 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 113, "message": Connect clicked.}
+{"time": 11/14/2019 12:16:18 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 115, "message": Trying to connect.}
+{"time": 11/14/2019 12:17:19 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 113, "message": Connect clicked.}
+{"time": 11/14/2019 12:17:19 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 115, "message": Trying to connect.}
+{"time": 11/14/2019 12:17:19 AM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7497 with clientId 101...}
+{"time": 11/14/2019 12:17:19 AM, "module": client, "function_name": connect, "line_number": 211, "message": Connected}
+{"time": 11/14/2019 12:17:19 AM, "module": client, "function_name": _onSocketHasData, "line_number": 342, "message": Logged on to server version 152}
+{"time": 11/14/2019 12:17:19 AM, "module": client, "function_name": connect, "line_number": 217, "message": API connection ready}
+{"time": 11/14/2019 12:17:19 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj}
+{"time": 11/14/2019 12:17:19 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:hfarm}
+{"time": 11/14/2019 12:17:19 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:cashfarm}
+{"time": 11/14/2019 12:17:19 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm}
+{"time": 11/14/2019 12:17:19 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:hkhmds}
+{"time": 11/14/2019 12:17:19 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/14/2019 12:17:19 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk}
+{"time": 11/14/2019 12:17:19 AM, "module": ib, "function_name": connect, "line_number": 1631, "message": Synchronization complete}
+{"time": 11/14/2019 12:17:19 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 135, "message": Connected!}
+{"time": 11/14/2019 12:19:19 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 113, "message": Connect clicked.}
+{"time": 11/14/2019 12:19:19 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 115, "message": Trying to connect.}
+{"time": 11/14/2019 12:19:19 AM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7497 with clientId 101...}
+{"time": 11/14/2019 12:19:19 AM, "module": client, "function_name": connect, "line_number": 211, "message": Connected}
+{"time": 11/14/2019 12:19:19 AM, "module": client, "function_name": _onSocketHasData, "line_number": 342, "message": Logged on to server version 152}
+{"time": 11/14/2019 12:19:19 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj}
+{"time": 11/14/2019 12:19:19 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:hfarm}
+{"time": 11/14/2019 12:19:19 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:cashfarm}
+{"time": 11/14/2019 12:19:19 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm}
+{"time": 11/14/2019 12:19:19 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:hkhmds}
+{"time": 11/14/2019 12:19:19 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/14/2019 12:19:19 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk}
+{"time": 11/14/2019 12:19:19 AM, "module": client, "function_name": connect, "line_number": 217, "message": API connection ready}
+{"time": 11/14/2019 12:19:19 AM, "module": ib, "function_name": connect, "line_number": 1631, "message": Synchronization complete}
+{"time": 11/14/2019 12:19:19 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 135, "message": Connected!}
+{"time": 11/14/2019 12:19:22 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 167, "message": [Stock(conId=44652000, symbol='RELIANCE', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='RELIANCE', tradingClass='RELIANCE')]}
+{"time": 11/14/2019 12:19:24 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 167, "message": [Stock(conId=44652000, symbol='RELIANCE', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='RELIANCE', tradingClass='RELIANCE')]}
+{"time": 11/14/2019 12:22:30 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 113, "message": Connect clicked.}
+{"time": 11/14/2019 12:22:30 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 115, "message": Trying to connect.}
+{"time": 11/14/2019 12:22:30 AM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7497 with clientId 11...}
+{"time": 11/14/2019 12:22:30 AM, "module": client, "function_name": connect, "line_number": 211, "message": Connected}
+{"time": 11/14/2019 12:22:30 AM, "module": client, "function_name": _onSocketHasData, "line_number": 342, "message": Logged on to server version 152}
+{"time": 11/14/2019 12:22:30 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj}
+{"time": 11/14/2019 12:22:30 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:hfarm}
+{"time": 11/14/2019 12:22:30 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:cashfarm}
+{"time": 11/14/2019 12:22:30 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm}
+{"time": 11/14/2019 12:22:30 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:hkhmds}
+{"time": 11/14/2019 12:22:30 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/14/2019 12:22:30 AM, "module": client, "function_name": connect, "line_number": 217, "message": API connection ready}
+{"time": 11/14/2019 12:22:30 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk}
+{"time": 11/14/2019 12:22:30 AM, "module": ib, "function_name": connect, "line_number": 1631, "message": Synchronization complete}
+{"time": 11/14/2019 12:22:30 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 135, "message": Connected!}
+{"time": 11/14/2019 12:22:32 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 167, "message": [Stock(conId=44652000, symbol='RELIANCE', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='RELIANCE', tradingClass='RELIANCE')]}
+{"time": 11/14/2019 12:22:38 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 137, "message": Disconnect clicked.}
+{"time": 11/14/2019 12:22:38 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 156, "message": Faked a disconnection.}
+{"time": 11/14/2019 12:55:27 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 167, "message": Connect clicked.}
+{"time": 11/14/2019 12:55:27 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 169, "message": Trying to connect.}
+{"time": 11/14/2019 12:55:27 AM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7497 with clientId 10...}
+{"time": 11/14/2019 12:55:27 AM, "module": client, "function_name": connect, "line_number": 211, "message": Connected}
+{"time": 11/14/2019 12:55:27 AM, "module": client, "function_name": _onSocketHasData, "line_number": 342, "message": Logged on to server version 152}
+{"time": 11/14/2019 12:55:27 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj}
+{"time": 11/14/2019 12:55:27 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:hfarm}
+{"time": 11/14/2019 12:55:27 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:cashfarm}
+{"time": 11/14/2019 12:55:27 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm}
+{"time": 11/14/2019 12:55:27 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:hkhmds}
+{"time": 11/14/2019 12:55:27 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/14/2019 12:55:27 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk}
+{"time": 11/14/2019 12:55:27 AM, "module": client, "function_name": connect, "line_number": 217, "message": API connection ready}
+{"time": 11/14/2019 12:55:27 AM, "module": ib, "function_name": connect, "line_number": 1631, "message": Synchronization complete}
+{"time": 11/14/2019 12:55:27 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 189, "message": Connected!}
+{"time": 11/14/2019 12:55:35 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 221, "message": [Stock(conId=121502066, symbol='20MICRONS', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='20MICRONS', tradingClass='20MICRONS')]}
+{"time": 11/14/2019 12:56:52 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 226, "message": Starting tick fetch.}
+{"time": 11/14/2019 01:28:35 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 170, "message": Connect clicked.}
+{"time": 11/14/2019 01:28:35 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 172, "message": Trying to connect.}
+{"time": 11/14/2019 01:28:35 AM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7497 with clientId 101...}
+{"time": 11/14/2019 01:28:35 AM, "module": client, "function_name": connect, "line_number": 211, "message": Connected}
+{"time": 11/14/2019 01:28:35 AM, "module": client, "function_name": _onSocketHasData, "line_number": 342, "message": Logged on to server version 152}
+{"time": 11/14/2019 01:28:35 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj}
+{"time": 11/14/2019 01:28:35 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:hfarm}
+{"time": 11/14/2019 01:28:35 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:cashfarm}
+{"time": 11/14/2019 01:28:35 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm}
+{"time": 11/14/2019 01:28:35 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:hkhmds}
+{"time": 11/14/2019 01:28:35 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/14/2019 01:28:35 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk}
+{"time": 11/14/2019 01:28:35 AM, "module": client, "function_name": connect, "line_number": 217, "message": API connection ready}
+{"time": 11/14/2019 01:28:35 AM, "module": ib, "function_name": connect, "line_number": 1631, "message": Synchronization complete}
+{"time": 11/14/2019 01:28:35 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 192, "message": Connected!}
+{"time": 11/14/2019 01:28:48 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 224, "message": [Stock(conId=121502066, symbol='20MICRONS', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='20MICRONS', tradingClass='20MICRONS')]}
+{"time": 11/14/2019 01:29:08 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 229, "message": Starting tick fetch.}
+{"time": 11/14/2019 01:30:16 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 229, "message": Starting tick fetch.}
+{"time": 11/14/2019 01:32:21 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 170, "message": Connect clicked.}
+{"time": 11/14/2019 01:32:21 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 172, "message": Trying to connect.}
+{"time": 11/14/2019 01:32:21 AM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7497 with clientId 133...}
+{"time": 11/14/2019 01:32:21 AM, "module": client, "function_name": connect, "line_number": 211, "message": Connected}
+{"time": 11/14/2019 01:32:21 AM, "module": client, "function_name": _onSocketHasData, "line_number": 342, "message": Logged on to server version 152}
+{"time": 11/14/2019 01:32:21 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj}
+{"time": 11/14/2019 01:32:21 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:hfarm}
+{"time": 11/14/2019 01:32:21 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:cashfarm}
+{"time": 11/14/2019 01:32:21 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm}
+{"time": 11/14/2019 01:32:21 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:hkhmds}
+{"time": 11/14/2019 01:32:21 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/14/2019 01:32:21 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk}
+{"time": 11/14/2019 01:32:21 AM, "module": client, "function_name": connect, "line_number": 217, "message": API connection ready}
+{"time": 11/14/2019 01:32:21 AM, "module": ib, "function_name": connect, "line_number": 1631, "message": Synchronization complete}
+{"time": 11/14/2019 01:32:21 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 192, "message": Connected!}
+{"time": 11/14/2019 01:32:29 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 224, "message": [Stock(conId=121502066, symbol='20MICRONS', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='20MICRONS', tradingClass='20MICRONS')]}
+{"time": 11/14/2019 01:33:02 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 229, "message": Starting tick fetch.}
+{"time": 11/14/2019 01:37:55 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 170, "message": Connect clicked.}
+{"time": 11/14/2019 01:37:55 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 172, "message": Trying to connect.}
+{"time": 11/14/2019 01:37:55 AM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7497 with clientId 101...}
+{"time": 11/14/2019 01:37:55 AM, "module": client, "function_name": connect, "line_number": 211, "message": Connected}
+{"time": 11/14/2019 01:37:55 AM, "module": client, "function_name": _onSocketHasData, "line_number": 342, "message": Logged on to server version 152}
+{"time": 11/14/2019 01:37:55 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj}
+{"time": 11/14/2019 01:37:55 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:hfarm}
+{"time": 11/14/2019 01:37:55 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:cashfarm}
+{"time": 11/14/2019 01:37:55 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm}
+{"time": 11/14/2019 01:37:55 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:hkhmds}
+{"time": 11/14/2019 01:37:55 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/14/2019 01:37:55 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk}
+{"time": 11/14/2019 01:37:55 AM, "module": client, "function_name": connect, "line_number": 217, "message": API connection ready}
+{"time": 11/14/2019 01:37:55 AM, "module": ib, "function_name": connect, "line_number": 1631, "message": Synchronization complete}
+{"time": 11/14/2019 01:37:55 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 192, "message": Connected!}
+{"time": 11/14/2019 01:38:02 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 224, "message": [Stock(conId=121502066, symbol='20MICRONS', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='20MICRONS', tradingClass='20MICRONS')]}
+{"time": 11/14/2019 01:38:13 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 229, "message": Starting tick fetch.}
+{"time": 11/14/2019 01:38:13 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 237, "message": 2019-11-12 01:38:05,2019-11-12 01:38:05,1000,TRADES,False,False,True}
+{"time": 11/14/2019 01:52:59 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 224, "message": [Stock(conId=121502066, symbol='20MICRONS', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='20MICRONS', tradingClass='20MICRONS')]}
+{"time": 11/14/2019 01:53:06 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 229, "message": Starting tick fetch.}
+{"time": 11/14/2019 01:53:06 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 237, "message": 2019-11-12 01:38:05,2019-11-12 01:38:05,1000,TRADES,False,False,True}
+{"time": 11/14/2019 01:54:14 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 170, "message": Connect clicked.}
+{"time": 11/14/2019 01:54:14 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 172, "message": Trying to connect.}
+{"time": 11/14/2019 01:54:15 AM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7497 with clientId 101...}
+{"time": 11/14/2019 01:54:15 AM, "module": client, "function_name": connect, "line_number": 211, "message": Connected}
+{"time": 11/14/2019 01:54:15 AM, "module": client, "function_name": _onSocketHasData, "line_number": 342, "message": Logged on to server version 152}
+{"time": 11/14/2019 01:54:15 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj}
+{"time": 11/14/2019 01:54:15 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:hfarm}
+{"time": 11/14/2019 01:54:15 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:cashfarm}
+{"time": 11/14/2019 01:54:15 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm}
+{"time": 11/14/2019 01:54:15 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:hkhmds}
+{"time": 11/14/2019 01:54:15 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/14/2019 01:54:15 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk}
+{"time": 11/14/2019 01:54:15 AM, "module": client, "function_name": connect, "line_number": 217, "message": API connection ready}
+{"time": 11/14/2019 01:54:15 AM, "module": ib, "function_name": connect, "line_number": 1631, "message": Synchronization complete}
+{"time": 11/14/2019 01:54:15 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 192, "message": Connected!}
+{"time": 11/14/2019 01:54:24 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 224, "message": [Stock(conId=121502066, symbol='20MICRONS', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='20MICRONS', tradingClass='20MICRONS')]}
+{"time": 11/14/2019 01:54:33 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 229, "message": Starting tick fetch.}
+{"time": 11/14/2019 01:54:33 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 237, "message": 2019-11-11 01:54:27,2019-11-12 01:54:30,1000,TRADES,False,False,/home/maker/Code/GitHubRepo/SwissAlgoKnife/Downloads}
+{"time": 11/14/2019 01:54:33 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 29, "message": Entered getTickFor().}
+{"time": 11/14/2019 01:54:33 AM, "module": wrapper, "function_name": error, "line_number": 925, "message": Error 321, reqId 4: Error validating request:-'bV' : cause - Historical ticks query end date/time string [2019-11-12 01:54:30] is invalid.  Format is 'YYYYMMDD{SPACE}hh:mm:ss[{SPACE}TMZ]'., contract: Stock(conId=121502066, symbol='20MICRONS', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='20MICRONS', tradingClass='20MICRONS')}
+{"time": 11/14/2019 02:42:08 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 170, "message": Connect clicked.}
+{"time": 11/14/2019 02:42:08 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 172, "message": Trying to connect.}
+{"time": 11/14/2019 02:42:08 AM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7497 with clientId 101...}
+{"time": 11/14/2019 02:42:08 AM, "module": client, "function_name": connect, "line_number": 211, "message": Connected}
+{"time": 11/14/2019 02:42:08 AM, "module": client, "function_name": _onSocketHasData, "line_number": 342, "message": Logged on to server version 152}
+{"time": 11/14/2019 02:42:08 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj}
+{"time": 11/14/2019 02:42:08 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:hfarm}
+{"time": 11/14/2019 02:42:08 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:cashfarm}
+{"time": 11/14/2019 02:42:08 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm}
+{"time": 11/14/2019 02:42:08 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:hkhmds}
+{"time": 11/14/2019 02:42:08 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/14/2019 02:42:08 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk}
+{"time": 11/14/2019 02:42:08 AM, "module": client, "function_name": connect, "line_number": 217, "message": API connection ready}
+{"time": 11/14/2019 02:42:08 AM, "module": ib, "function_name": connect, "line_number": 1631, "message": Synchronization complete}
+{"time": 11/14/2019 02:42:08 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 192, "message": Connected!}
+{"time": 11/14/2019 02:42:16 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 224, "message": [Stock(conId=121502066, symbol='20MICRONS', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='20MICRONS', tradingClass='20MICRONS')]}
+{"time": 11/14/2019 02:42:29 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 229, "message": Starting tick fetch.}
+{"time": 11/14/2019 02:42:29 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 240, "message": 2019-11-11 02:42:19,2019-11-12 02:42:26,1000,TRADES,False,False,/home/maker/Code/GitHubRepo/SwissAlgoKnife/Downloads}
+{"time": 11/14/2019 02:42:29 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 29, "message": Entered getTickFor().}
+{"time": 11/14/2019 02:42:30 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 46, "message": Request number 1 Received 155 ticks from 2019-11-11 02:42:19(UTC) to 2019-11-11 09:59:59+00:00(UTC).}
+{"time": 11/14/2019 03:00:39 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 171, "message": Connect clicked.}
+{"time": 11/14/2019 03:00:39 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 173, "message": Trying to connect.}
+{"time": 11/14/2019 03:00:39 AM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7497 with clientId 101...}
+{"time": 11/14/2019 03:00:39 AM, "module": client, "function_name": connect, "line_number": 211, "message": Connected}
+{"time": 11/14/2019 03:00:39 AM, "module": client, "function_name": _onSocketHasData, "line_number": 342, "message": Logged on to server version 152}
+{"time": 11/14/2019 03:00:39 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj}
+{"time": 11/14/2019 03:00:39 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:hfarm}
+{"time": 11/14/2019 03:00:39 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:cashfarm}
+{"time": 11/14/2019 03:00:39 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm}
+{"time": 11/14/2019 03:00:39 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:hkhmds}
+{"time": 11/14/2019 03:00:39 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/14/2019 03:00:39 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk}
+{"time": 11/14/2019 03:00:39 AM, "module": client, "function_name": connect, "line_number": 217, "message": API connection ready}
+{"time": 11/14/2019 03:00:39 AM, "module": ib, "function_name": connect, "line_number": 1631, "message": Synchronization complete}
+{"time": 11/14/2019 03:00:39 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 193, "message": Connected!}
+{"time": 11/14/2019 03:00:45 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 225, "message": [Stock(conId=121502066, symbol='20MICRONS', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='20MICRONS', tradingClass='20MICRONS')]}
+{"time": 11/14/2019 03:00:52 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 230, "message": Starting tick fetch.}
+{"time": 11/14/2019 03:00:52 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 241, "message": 2019-11-11 03:00:47,2019-11-12 03:00:50,1000,TRADES,False,False,/home/maker/Code/GitHubRepo/SwissAlgoKnife/Downloads}
+{"time": 11/14/2019 03:00:52 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 30, "message": Entered getTickFor().}
+{"time": 11/14/2019 03:00:53 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 47, "message": Request number 1 Received 155 ticks from 2019-11-11 03:00:47(UTC) to 2019-11-11 09:59:59+00:00(UTC).}
+{"time": 11/14/2019 03:01:50 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 171, "message": Connect clicked.}
+{"time": 11/14/2019 03:01:50 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 173, "message": Trying to connect.}
+{"time": 11/14/2019 03:01:50 AM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7497 with clientId 101...}
+{"time": 11/14/2019 03:01:50 AM, "module": client, "function_name": connect, "line_number": 211, "message": Connected}
+{"time": 11/14/2019 03:01:50 AM, "module": client, "function_name": _onSocketHasData, "line_number": 342, "message": Logged on to server version 152}
+{"time": 11/14/2019 03:01:50 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj}
+{"time": 11/14/2019 03:01:50 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:hfarm}
+{"time": 11/14/2019 03:01:50 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:cashfarm}
+{"time": 11/14/2019 03:01:50 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm}
+{"time": 11/14/2019 03:01:50 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:hkhmds}
+{"time": 11/14/2019 03:01:50 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/14/2019 03:01:50 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk}
+{"time": 11/14/2019 03:01:50 AM, "module": client, "function_name": connect, "line_number": 217, "message": API connection ready}
+{"time": 11/14/2019 03:01:50 AM, "module": ib, "function_name": connect, "line_number": 1631, "message": Synchronization complete}
+{"time": 11/14/2019 03:01:50 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 193, "message": Connected!}
+{"time": 11/14/2019 03:01:57 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 225, "message": [Stock(conId=121502066, symbol='20MICRONS', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='20MICRONS', tradingClass='20MICRONS')]}
+{"time": 11/14/2019 03:02:06 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 230, "message": Starting tick fetch.}
+{"time": 11/14/2019 03:02:06 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 241, "message": 2019-11-11 03:02:00,2019-11-12 03:02:03,1000,TRADES,False,False,/home/maker/Code/GitHubRepo/SwissAlgoKnife/Downloads}
+{"time": 11/14/2019 03:02:06 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 30, "message": Entered getTickFor().}
+{"time": 11/14/2019 03:02:07 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 47, "message": Request number 1 Received 155 ticks from 2019-11-11 03:02:00(UTC) to 2019-11-11 09:59:59+00:00(UTC).}
+{"time": 11/14/2019 03:02:07 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 69, "message": FINISHED: 20MICRONS}
+{"time": 11/14/2019 03:04:12 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 171, "message": Connect clicked.}
+{"time": 11/14/2019 03:04:12 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 173, "message": Trying to connect.}
+{"time": 11/14/2019 03:04:12 AM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7497 with clientId 101...}
+{"time": 11/14/2019 03:04:12 AM, "module": client, "function_name": connect, "line_number": 211, "message": Connected}
+{"time": 11/14/2019 03:04:12 AM, "module": client, "function_name": _onSocketHasData, "line_number": 342, "message": Logged on to server version 152}
+{"time": 11/14/2019 03:04:12 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj}
+{"time": 11/14/2019 03:04:12 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:hfarm}
+{"time": 11/14/2019 03:04:12 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:cashfarm}
+{"time": 11/14/2019 03:04:12 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm}
+{"time": 11/14/2019 03:04:12 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:hkhmds}
+{"time": 11/14/2019 03:04:12 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/14/2019 03:04:12 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk}
+{"time": 11/14/2019 03:04:12 AM, "module": client, "function_name": connect, "line_number": 217, "message": API connection ready}
+{"time": 11/14/2019 03:04:12 AM, "module": ib, "function_name": connect, "line_number": 1631, "message": Synchronization complete}
+{"time": 11/14/2019 03:04:12 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 193, "message": Connected!}
+{"time": 11/14/2019 03:04:14 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 225, "message": [Stock(conId=44652000, symbol='RELIANCE', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='RELIANCE', tradingClass='RELIANCE')]}
+{"time": 11/14/2019 03:04:27 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 230, "message": Starting tick fetch.}
+{"time": 11/14/2019 03:04:27 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 241, "message": 2019-11-04 03:04:20,2019-11-08 03:04:24,1000,TRADES,False,False,/home/maker/Code/GitHubRepo/SwissAlgoKnife/Downloads}
+{"time": 11/14/2019 03:04:27 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 30, "message": Entered getTickFor().}
+{"time": 11/14/2019 03:04:28 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 47, "message": Request number 1 Received 1001 ticks from 2019-11-04 03:04:20(UTC) to 2019-11-04 04:04:07+00:00(UTC).}
+{"time": 11/14/2019 03:04:29 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 2 Received 1000 ticks from 2019-11-04 04:26:06+00:00 (UTC) to 2019-11-04 04:26:06+00:00 (UTC).}
+{"time": 11/14/2019 03:04:30 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 3 Received 1000 ticks from 2019-11-04 04:48:49+00:00 (UTC) to 2019-11-04 04:48:49+00:00 (UTC).}
+{"time": 11/14/2019 03:04:32 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 4 Received 1000 ticks from 2019-11-04 05:12:57+00:00 (UTC) to 2019-11-04 05:12:57+00:00 (UTC).}
+{"time": 11/14/2019 03:04:33 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 5 Received 1000 ticks from 2019-11-04 05:35:07+00:00 (UTC) to 2019-11-04 05:35:07+00:00 (UTC).}
+{"time": 11/14/2019 03:04:34 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 6 Received 1000 ticks from 2019-11-04 05:57:38+00:00 (UTC) to 2019-11-04 05:57:38+00:00 (UTC).}
+{"time": 11/14/2019 03:04:35 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 7 Received 1000 ticks from 2019-11-04 06:23:21+00:00 (UTC) to 2019-11-04 06:23:21+00:00 (UTC).}
+{"time": 11/14/2019 03:04:36 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 8 Received 1000 ticks from 2019-11-04 06:47:18+00:00 (UTC) to 2019-11-04 06:47:18+00:00 (UTC).}
+{"time": 11/14/2019 03:04:37 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 9 Received 1000 ticks from 2019-11-04 07:08:08+00:00 (UTC) to 2019-11-04 07:08:08+00:00 (UTC).}
+{"time": 11/14/2019 03:04:38 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 10 Received 1000 ticks from 2019-11-04 07:27:47+00:00 (UTC) to 2019-11-04 07:27:47+00:00 (UTC).}
+{"time": 11/14/2019 03:04:39 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 11 Received 1000 ticks from 2019-11-04 07:49:34+00:00 (UTC) to 2019-11-04 07:49:34+00:00 (UTC).}
+{"time": 11/14/2019 03:04:40 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 12 Received 1000 ticks from 2019-11-04 08:08:49+00:00 (UTC) to 2019-11-04 08:08:49+00:00 (UTC).}
+{"time": 11/14/2019 03:04:41 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 13 Received 1000 ticks from 2019-11-04 08:28:39+00:00 (UTC) to 2019-11-04 08:28:39+00:00 (UTC).}
+{"time": 11/14/2019 03:04:42 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 14 Received 1000 ticks from 2019-11-04 08:49:43+00:00 (UTC) to 2019-11-04 08:49:43+00:00 (UTC).}
+{"time": 11/14/2019 03:04:43 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 15 Received 1000 ticks from 2019-11-04 09:11:35+00:00 (UTC) to 2019-11-04 09:11:35+00:00 (UTC).}
+{"time": 11/14/2019 03:04:46 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 16 Received 1000 ticks from 2019-11-04 09:31:46+00:00 (UTC) to 2019-11-04 09:31:46+00:00 (UTC).}
+{"time": 11/14/2019 03:04:47 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 17 Received 1001 ticks from 2019-11-04 09:50:58+00:00 (UTC) to 2019-11-04 09:50:58+00:00 (UTC).}
+{"time": 11/14/2019 03:04:48 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 18 Received 477 ticks from 2019-11-04 09:59:59+00:00 (UTC) to 2019-11-04 09:59:59+00:00 (UTC).}
+{"time": 11/14/2019 03:04:51 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 18 Received 18 ticks from 2019-11-04 12:23:59+00:00 (UTC) to 2019-11-04 09:59:59+00:00 (UTC).}
+{"time": 11/14/2019 03:04:52 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 19 Received 1001 ticks from 2019-11-05 04:04:02+00:00 (UTC) to 2019-11-05 04:04:02+00:00 (UTC).}
+{"time": 11/14/2019 03:04:58 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 20 Received 1000 ticks from 2019-11-05 04:25:33+00:00 (UTC) to 2019-11-05 04:25:33+00:00 (UTC).}
+{"time": 11/14/2019 03:05:04 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 21 Received 1000 ticks from 2019-11-05 04:44:15+00:00 (UTC) to 2019-11-05 04:44:15+00:00 (UTC).}
+{"time": 11/14/2019 03:05:10 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 22 Received 1000 ticks from 2019-11-05 05:03:10+00:00 (UTC) to 2019-11-05 05:03:10+00:00 (UTC).}
+{"time": 11/14/2019 03:05:16 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 23 Received 1000 ticks from 2019-11-05 05:23:57+00:00 (UTC) to 2019-11-05 05:23:57+00:00 (UTC).}
+{"time": 11/14/2019 03:05:28 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 24 Received 1000 ticks from 2019-11-05 05:43:47+00:00 (UTC) to 2019-11-05 05:43:47+00:00 (UTC).}
+{"time": 11/14/2019 03:05:29 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 25 Received 1000 ticks from 2019-11-05 06:05:15+00:00 (UTC) to 2019-11-05 06:05:15+00:00 (UTC).}
+{"time": 11/14/2019 03:05:30 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 26 Received 1000 ticks from 2019-11-05 06:26:20+00:00 (UTC) to 2019-11-05 06:26:20+00:00 (UTC).}
+{"time": 11/14/2019 03:05:31 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 27 Received 1000 ticks from 2019-11-05 06:48:35+00:00 (UTC) to 2019-11-05 06:48:35+00:00 (UTC).}
+{"time": 11/14/2019 03:05:32 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 28 Received 1000 ticks from 2019-11-05 07:10:59+00:00 (UTC) to 2019-11-05 07:10:59+00:00 (UTC).}
+{"time": 11/14/2019 03:05:35 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 29 Received 1000 ticks from 2019-11-05 07:31:20+00:00 (UTC) to 2019-11-05 07:31:20+00:00 (UTC).}
+{"time": 11/14/2019 03:05:36 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 30 Received 1001 ticks from 2019-11-05 07:50:03+00:00 (UTC) to 2019-11-05 07:50:03+00:00 (UTC).}
+{"time": 11/14/2019 03:05:37 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 31 Received 1000 ticks from 2019-11-05 08:08:53+00:00 (UTC) to 2019-11-05 08:08:53+00:00 (UTC).}
+{"time": 11/14/2019 03:05:38 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 32 Received 1000 ticks from 2019-11-05 08:27:47+00:00 (UTC) to 2019-11-05 08:27:47+00:00 (UTC).}
+{"time": 11/14/2019 03:05:39 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 33 Received 1000 ticks from 2019-11-05 08:48:35+00:00 (UTC) to 2019-11-05 08:48:35+00:00 (UTC).}
+{"time": 11/14/2019 03:05:40 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 34 Received 1000 ticks from 2019-11-05 09:11:38+00:00 (UTC) to 2019-11-05 09:11:38+00:00 (UTC).}
+{"time": 11/14/2019 03:05:41 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 35 Received 1000 ticks from 2019-11-05 09:32:20+00:00 (UTC) to 2019-11-05 09:32:20+00:00 (UTC).}
+{"time": 11/14/2019 03:05:42 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 36 Received 1000 ticks from 2019-11-05 09:51:07+00:00 (UTC) to 2019-11-05 09:51:07+00:00 (UTC).}
+{"time": 11/14/2019 03:05:42 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 37 Received 493 ticks from 2019-11-05 09:59:59+00:00 (UTC) to 2019-11-05 09:59:59+00:00 (UTC).}
+{"time": 11/14/2019 03:05:43 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 37 Received 20 ticks from 2019-11-05 12:23:59+00:00 (UTC) to 2019-11-05 09:59:59+00:00 (UTC).}
+{"time": 11/14/2019 03:05:44 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 38 Received 1001 ticks from 2019-11-06 04:04:37+00:00 (UTC) to 2019-11-06 04:04:37+00:00 (UTC).}
+{"time": 11/14/2019 03:05:46 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 39 Received 1000 ticks from 2019-11-06 04:24:43+00:00 (UTC) to 2019-11-06 04:24:43+00:00 (UTC).}
+{"time": 11/14/2019 03:05:47 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 40 Received 1000 ticks from 2019-11-06 04:46:02+00:00 (UTC) to 2019-11-06 04:46:02+00:00 (UTC).}
+{"time": 11/14/2019 03:05:48 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 41 Received 1000 ticks from 2019-11-06 05:10:01+00:00 (UTC) to 2019-11-06 05:10:01+00:00 (UTC).}
+{"time": 11/14/2019 03:05:52 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 42 Received 1000 ticks from 2019-11-06 05:33:38+00:00 (UTC) to 2019-11-06 05:33:38+00:00 (UTC).}
+{"time": 11/14/2019 03:05:53 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 43 Received 1000 ticks from 2019-11-06 05:53:37+00:00 (UTC) to 2019-11-06 05:53:37+00:00 (UTC).}
+{"time": 11/14/2019 03:05:58 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 44 Received 1000 ticks from 2019-11-06 06:14:28+00:00 (UTC) to 2019-11-06 06:14:28+00:00 (UTC).}
+{"time": 11/14/2019 03:06:04 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 45 Received 1000 ticks from 2019-11-06 06:35:11+00:00 (UTC) to 2019-11-06 06:35:11+00:00 (UTC).}
+{"time": 11/14/2019 03:06:10 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 46 Received 1000 ticks from 2019-11-06 06:57:48+00:00 (UTC) to 2019-11-06 06:57:48+00:00 (UTC).}
+{"time": 11/14/2019 03:06:16 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 47 Received 1000 ticks from 2019-11-06 07:20:19+00:00 (UTC) to 2019-11-06 07:20:19+00:00 (UTC).}
+{"time": 11/14/2019 03:06:28 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 48 Received 1000 ticks from 2019-11-06 07:46:17+00:00 (UTC) to 2019-11-06 07:46:17+00:00 (UTC).}
+{"time": 11/14/2019 03:06:29 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 49 Received 1000 ticks from 2019-11-06 08:12:10+00:00 (UTC) to 2019-11-06 08:12:10+00:00 (UTC).}
+{"time": 11/14/2019 03:06:30 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 50 Received 1000 ticks from 2019-11-06 08:36:51+00:00 (UTC) to 2019-11-06 08:36:51+00:00 (UTC).}
+{"time": 11/14/2019 03:06:31 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 51 Received 1000 ticks from 2019-11-06 09:00:06+00:00 (UTC) to 2019-11-06 09:00:06+00:00 (UTC).}
+{"time": 11/14/2019 03:06:32 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 52 Received 1000 ticks from 2019-11-06 09:21:37+00:00 (UTC) to 2019-11-06 09:21:37+00:00 (UTC).}
+{"time": 11/14/2019 03:06:33 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 53 Received 1000 ticks from 2019-11-06 09:42:11+00:00 (UTC) to 2019-11-06 09:42:11+00:00 (UTC).}
+{"time": 11/14/2019 03:06:34 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 54 Received 958 ticks from 2019-11-06 09:59:59+00:00 (UTC) to 2019-11-06 09:59:59+00:00 (UTC).}
+{"time": 11/14/2019 03:06:35 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 54 Received 20 ticks from 2019-11-06 12:23:59+00:00 (UTC) to 2019-11-06 09:59:59+00:00 (UTC).}
+{"time": 11/14/2019 03:06:36 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 55 Received 1001 ticks from 2019-11-07 04:04:06+00:00 (UTC) to 2019-11-07 04:04:06+00:00 (UTC).}
+{"time": 11/14/2019 03:06:37 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 56 Received 1000 ticks from 2019-11-07 04:24:21+00:00 (UTC) to 2019-11-07 04:24:21+00:00 (UTC).}
+{"time": 11/14/2019 03:06:38 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 57 Received 1000 ticks from 2019-11-07 04:46:50+00:00 (UTC) to 2019-11-07 04:46:50+00:00 (UTC).}
+{"time": 11/14/2019 03:06:39 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 58 Received 1000 ticks from 2019-11-07 05:11:51+00:00 (UTC) to 2019-11-07 05:11:51+00:00 (UTC).}
+{"time": 11/14/2019 03:06:40 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 59 Received 1000 ticks from 2019-11-07 05:34:44+00:00 (UTC) to 2019-11-07 05:34:44+00:00 (UTC).}
+{"time": 11/14/2019 03:06:41 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 60 Received 1000 ticks from 2019-11-07 05:57:18+00:00 (UTC) to 2019-11-07 05:57:18+00:00 (UTC).}
+{"time": 11/14/2019 03:06:42 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 61 Received 1000 ticks from 2019-11-07 06:24:46+00:00 (UTC) to 2019-11-07 06:24:46+00:00 (UTC).}
+{"time": 11/14/2019 03:06:44 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 62 Received 1000 ticks from 2019-11-07 06:50:49+00:00 (UTC) to 2019-11-07 06:50:49+00:00 (UTC).}
+{"time": 11/14/2019 03:06:46 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 63 Received 1000 ticks from 2019-11-07 07:16:15+00:00 (UTC) to 2019-11-07 07:16:15+00:00 (UTC).}
+{"time": 11/14/2019 03:06:47 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 64 Received 1000 ticks from 2019-11-07 07:43:21+00:00 (UTC) to 2019-11-07 07:43:21+00:00 (UTC).}
+{"time": 11/14/2019 03:06:49 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 65 Received 1000 ticks from 2019-11-07 08:11:30+00:00 (UTC) to 2019-11-07 08:11:30+00:00 (UTC).}
+{"time": 11/14/2019 03:06:52 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 66 Received 1000 ticks from 2019-11-07 08:36:05+00:00 (UTC) to 2019-11-07 08:36:05+00:00 (UTC).}
+{"time": 11/14/2019 03:06:53 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 67 Received 1001 ticks from 2019-11-07 09:00:17+00:00 (UTC) to 2019-11-07 09:00:17+00:00 (UTC).}
+{"time": 11/14/2019 03:06:58 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 68 Received 1000 ticks from 2019-11-07 09:25:31+00:00 (UTC) to 2019-11-07 09:25:31+00:00 (UTC).}
+{"time": 11/14/2019 03:07:04 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 69 Received 1001 ticks from 2019-11-07 09:45:20+00:00 (UTC) to 2019-11-07 09:45:20+00:00 (UTC).}
+{"time": 11/14/2019 03:07:10 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 58, "message": Request number 70 Received 793 ticks from 2019-11-07 09:59:59+00:00 (UTC) to 2019-11-07 09:59:59+00:00 (UTC).}
+{"time": 11/14/2019 03:07:11 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 69, "message": FINISHED: RELIANCE}
+{"time": 11/14/2019 03:13:13 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 169, "message": Connect clicked.}
+{"time": 11/14/2019 03:13:13 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 171, "message": Trying to connect.}
+{"time": 11/14/2019 03:13:13 AM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7497 with clientId 101...}
+{"time": 11/14/2019 03:13:13 AM, "module": client, "function_name": connect, "line_number": 211, "message": Connected}
+{"time": 11/14/2019 03:13:13 AM, "module": client, "function_name": _onSocketHasData, "line_number": 342, "message": Logged on to server version 152}
+{"time": 11/14/2019 03:13:13 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj}
+{"time": 11/14/2019 03:13:13 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:hfarm}
+{"time": 11/14/2019 03:13:13 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:cashfarm}
+{"time": 11/14/2019 03:13:13 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm}
+{"time": 11/14/2019 03:13:13 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:hkhmds}
+{"time": 11/14/2019 03:13:13 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/14/2019 03:13:13 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk}
+{"time": 11/14/2019 03:13:13 AM, "module": client, "function_name": connect, "line_number": 217, "message": API connection ready}
+{"time": 11/14/2019 03:13:13 AM, "module": ib, "function_name": connect, "line_number": 1631, "message": Synchronization complete}
+{"time": 11/14/2019 03:13:13 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 191, "message": Connected!}
+{"time": 11/14/2019 03:17:40 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 169, "message": Connect clicked.}
+{"time": 11/14/2019 03:17:40 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 171, "message": Trying to connect.}
+{"time": 11/14/2019 03:17:40 AM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7497 with clientId 101...}
+{"time": 11/14/2019 03:17:40 AM, "module": client, "function_name": connect, "line_number": 211, "message": Connected}
+{"time": 11/14/2019 03:17:40 AM, "module": client, "function_name": _onSocketHasData, "line_number": 342, "message": Logged on to server version 152}
+{"time": 11/14/2019 03:17:40 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj}
+{"time": 11/14/2019 03:17:40 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:hfarm}
+{"time": 11/14/2019 03:17:40 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:cashfarm}
+{"time": 11/14/2019 03:17:40 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm}
+{"time": 11/14/2019 03:17:40 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:hkhmds}
+{"time": 11/14/2019 03:17:40 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/14/2019 03:17:40 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk}
+{"time": 11/14/2019 03:17:40 AM, "module": client, "function_name": connect, "line_number": 217, "message": API connection ready}
+{"time": 11/14/2019 03:17:40 AM, "module": ib, "function_name": connect, "line_number": 1631, "message": Synchronization complete}
+{"time": 11/14/2019 03:17:40 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 191, "message": Connected!}
+{"time": 11/14/2019 03:17:42 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 223, "message": [Stock(conId=44652000, symbol='RELIANCE', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='RELIANCE', tradingClass='RELIANCE')]}
+{"time": 11/14/2019 03:17:53 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 228, "message": Starting tick fetch.}
+{"time": 11/14/2019 03:17:53 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 240, "message": 2019-11-08 03:17:46,2019-11-08 23:23:50,1000,TRADES,False,False,/home/maker/Code/GitHubRepo/SwissAlgoKnife/Downloads}
+{"time": 11/14/2019 03:17:53 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 28, "message": Entered getTickFor().}
+{"time": 11/14/2019 03:17:55 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 45, "message": Request number 1 Received 1001 ticks from 2019-11-08 03:17:46(UTC) to 2019-11-08 04:04:44+00:00(UTC).}
+{"time": 11/14/2019 03:17:56 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 56, "message": Request number 2 Received 1000 ticks from 2019-11-08 04:27:23+00:00 (UTC) to 2019-11-08 04:27:23+00:00 (UTC).}
+{"time": 11/14/2019 03:17:57 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 56, "message": Request number 3 Received 1000 ticks from 2019-11-08 04:47:49+00:00 (UTC) to 2019-11-08 04:47:49+00:00 (UTC).}
+{"time": 11/14/2019 03:17:58 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 56, "message": Request number 4 Received 1000 ticks from 2019-11-08 05:10:39+00:00 (UTC) to 2019-11-08 05:10:39+00:00 (UTC).}
+{"time": 11/14/2019 03:18:00 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 56, "message": Request number 5 Received 1000 ticks from 2019-11-08 05:33:53+00:00 (UTC) to 2019-11-08 05:33:53+00:00 (UTC).}
+{"time": 11/14/2019 03:18:01 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 56, "message": Request number 6 Received 1000 ticks from 2019-11-08 05:57:22+00:00 (UTC) to 2019-11-08 05:57:22+00:00 (UTC).}
+{"time": 11/14/2019 03:18:02 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 56, "message": Request number 7 Received 1000 ticks from 2019-11-08 06:25:02+00:00 (UTC) to 2019-11-08 06:25:02+00:00 (UTC).}
+{"time": 11/14/2019 03:18:03 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 56, "message": Request number 8 Received 1000 ticks from 2019-11-08 06:50:00+00:00 (UTC) to 2019-11-08 06:50:00+00:00 (UTC).}
+{"time": 11/14/2019 03:18:15 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 56, "message": Request number 9 Received 1000 ticks from 2019-11-08 07:14:03+00:00 (UTC) to 2019-11-08 07:14:03+00:00 (UTC).}
+{"time": 11/14/2019 03:18:17 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 56, "message": Request number 10 Received 1000 ticks from 2019-11-08 07:33:25+00:00 (UTC) to 2019-11-08 07:33:25+00:00 (UTC).}
+{"time": 11/14/2019 03:18:18 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 56, "message": Request number 11 Received 1000 ticks from 2019-11-08 07:54:01+00:00 (UTC) to 2019-11-08 07:54:01+00:00 (UTC).}
+{"time": 11/14/2019 03:18:19 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 56, "message": Request number 12 Received 1000 ticks from 2019-11-08 08:16:40+00:00 (UTC) to 2019-11-08 08:16:40+00:00 (UTC).}
+{"time": 11/14/2019 03:18:20 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 56, "message": Request number 13 Received 1000 ticks from 2019-11-08 08:42:36+00:00 (UTC) to 2019-11-08 08:42:36+00:00 (UTC).}
+{"time": 11/14/2019 03:18:21 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 56, "message": Request number 14 Received 1000 ticks from 2019-11-08 09:08:10+00:00 (UTC) to 2019-11-08 09:08:10+00:00 (UTC).}
+{"time": 11/14/2019 03:18:22 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 56, "message": Request number 15 Received 1000 ticks from 2019-11-08 09:30:52+00:00 (UTC) to 2019-11-08 09:30:52+00:00 (UTC).}
+{"time": 11/14/2019 03:18:23 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 56, "message": Request number 16 Received 1000 ticks from 2019-11-08 09:50:25+00:00 (UTC) to 2019-11-08 09:50:25+00:00 (UTC).}
+{"time": 11/14/2019 03:18:24 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 56, "message": Request number 17 Received 508 ticks from 2019-11-08 09:59:59+00:00 (UTC) to 2019-11-08 09:59:59+00:00 (UTC).}
+{"time": 11/14/2019 03:18:24 AM, "module": IBKR_Allinone, "function_name": getTickFor, "line_number": 67, "message": FINISHED: RELIANCE}
+{"time": 11/14/2019 03:26:31 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 170, "message": Connect clicked.}
+{"time": 11/14/2019 03:26:31 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 172, "message": Trying to connect.}
+{"time": 11/14/2019 03:26:31 AM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7497 with clientId 101...}
+{"time": 11/14/2019 03:26:31 AM, "module": client, "function_name": connect, "line_number": 211, "message": Connected}
+{"time": 11/14/2019 03:26:31 AM, "module": client, "function_name": _onSocketHasData, "line_number": 342, "message": Logged on to server version 152}
+{"time": 11/14/2019 03:26:31 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj}
+{"time": 11/14/2019 03:26:31 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:hfarm}
+{"time": 11/14/2019 03:26:31 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:cashfarm}
+{"time": 11/14/2019 03:26:31 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm}
+{"time": 11/14/2019 03:26:31 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:hkhmds}
+{"time": 11/14/2019 03:26:31 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/14/2019 03:26:31 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk}
+{"time": 11/14/2019 03:26:31 AM, "module": client, "function_name": connect, "line_number": 217, "message": API connection ready}
+{"time": 11/14/2019 03:26:31 AM, "module": ib, "function_name": connect, "line_number": 1631, "message": Synchronization complete}
+{"time": 11/14/2019 03:26:31 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 192, "message": Connected!}
+{"time": 11/14/2019 03:26:34 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 224, "message": [Stock(conId=44652000, symbol='RELIANCE', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='RELIANCE', tradingClass='RELIANCE')]}
+{"time": 11/14/2019 03:26:49 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 249, "message": strDuration:1 D , strBarSize: 30 mins , strWhatToShow: TRADES}
+{"time": 11/14/2019 03:26:49 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 254, "message": dfStockData sample:                     0        1        2        3        4      5     6         7
+0  20191113, 09:15:00  1431.00  1443.85  1430.05  1441.45  44587   824  1436.565
+1  20191113, 09:30:00  1441.55  1451.45  1441.35  1444.25  80716  1618  1446.320
+2  20191113, 10:00:00  1444.00  1459.25  1442.15  1456.75  81611  1657  1450.765}
+{"time": 11/14/2019 03:27:52 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 194, "message": Disconnect clicked.}
+{"time": 11/14/2019 03:27:52 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 213, "message": Faked a disconnection.}
+{"time": 11/14/2019 03:51:43 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 170, "message": Connect clicked.}
+{"time": 11/14/2019 03:51:43 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 172, "message": Trying to connect.}
+{"time": 11/14/2019 03:51:43 AM, "module": ib, "function_name": connectAsync, "line_number": 1641, "message": Already connected}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 925, "message": Error 1100, reqId -1: Connectivity between IB and Trader Workstation has been lost.}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 925, "message": Error 1100, reqId -1: Connectivity between IB and Trader Workstation has been lost.}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 925, "message": Error 1100, reqId -1: Connectivity between IB and Trader Workstation has been lost.}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 925, "message": Error 1100, reqId -1: Connectivity between IB and Trader Workstation has been lost.}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 925, "message": Error 1100, reqId -1: Connectivity between IB and Trader Workstation has been lost.}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 925, "message": Error 1100, reqId -1: Connectivity between IB and Trader Workstation has been lost.}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 925, "message": Error 1100, reqId -1: Connectivity between IB and Trader Workstation has been lost.}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 925, "message": Error 1100, reqId -1: Connectivity between IB and Trader Workstation has been lost.}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2103, reqId -1: Market data farm connection is broken:usfarm.nj}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2103, reqId -1: Market data farm connection is broken:hfarm}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2103, reqId -1: Market data farm connection is broken:cashfarm}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2157, reqId -1: Sec-def data farm connection is broken:secdefhk}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2103, reqId -1: Market data farm connection is broken:usfarm}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2105, reqId -1: HMDS data farm connection is broken:hkhmds}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2105, reqId -1: HMDS data farm connection is broken:ushmds}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 925, "message": Error 1100, reqId -1: Connectivity between IB and Trader Workstation has been lost.}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 925, "message": Error 1100, reqId -1: Connectivity between IB and Trader Workstation has been lost.}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 925, "message": Error 1100, reqId -1: Connectivity between IB and Trader Workstation has been lost.}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 925, "message": Error 1100, reqId -1: Connectivity between IB and Trader Workstation has been lost.}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 925, "message": Error 1100, reqId -1: Connectivity between IB and Trader Workstation has been lost.}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 925, "message": Error 1100, reqId -1: Connectivity between IB and Trader Workstation has been lost.}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 925, "message": Error 1100, reqId -1: Connectivity between IB and Trader Workstation has been lost.}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2108, reqId -1: Market data farm connection is inactive but should be available upon demand.usfarm.nj}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2108, reqId -1: Market data farm connection is inactive but should be available upon demand.cashfarm}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2108, reqId -1: Market data farm connection is inactive but should be available upon demand.usfarm}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:hfarm}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:hkhmds}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:cashfarm}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm}
+{"time": 11/14/2019 03:51:43 AM, "module": wrapper, "function_name": error, "line_number": 925, "message": Error 1102, reqId -1: Connectivity between IB and Trader Workstation has been restored - data maintained. All data farms are connected: hfarm; hkhmds; ushmds; secdefhk.}
+{"time": 11/14/2019 03:51:43 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 192, "message": Connected!}
+{"time": 11/14/2019 03:51:46 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 224, "message": [Stock(conId=44652000, symbol='RELIANCE', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='RELIANCE', tradingClass='RELIANCE')]}
+{"time": 11/14/2019 03:53:18 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 194, "message": Disconnect clicked.}
+{"time": 11/14/2019 03:53:18 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 213, "message": Faked a disconnection.}
+{"time": 11/14/2019 03:53:20 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 170, "message": Connect clicked.}
+{"time": 11/14/2019 03:53:20 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 172, "message": Trying to connect.}
+{"time": 11/14/2019 03:53:20 AM, "module": ib, "function_name": connectAsync, "line_number": 1641, "message": Already connected}
+{"time": 11/14/2019 03:53:20 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2105, reqId -1: HMDS data farm connection is broken:ushmds}
+{"time": 11/14/2019 03:53:20 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/14/2019 03:53:20 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 192, "message": Connected!}
+{"time": 11/14/2019 03:53:23 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 224, "message": [Stock(conId=44652000, symbol='RELIANCE', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='RELIANCE', tradingClass='RELIANCE')]}
+{"time": 11/14/2019 03:54:21 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 170, "message": Connect clicked.}
+{"time": 11/14/2019 03:54:21 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 172, "message": Trying to connect.}
+{"time": 11/14/2019 03:54:21 AM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7497 with clientId 101...}
+{"time": 11/14/2019 03:54:21 AM, "module": client, "function_name": connect, "line_number": 211, "message": Connected}
+{"time": 11/14/2019 03:54:21 AM, "module": client, "function_name": _onSocketHasData, "line_number": 342, "message": Logged on to server version 152}
+{"time": 11/14/2019 03:54:21 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj}
+{"time": 11/14/2019 03:54:21 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:hfarm}
+{"time": 11/14/2019 03:54:21 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:cashfarm}
+{"time": 11/14/2019 03:54:21 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm}
+{"time": 11/14/2019 03:54:21 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:hkhmds}
+{"time": 11/14/2019 03:54:21 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/14/2019 03:54:21 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk}
+{"time": 11/14/2019 03:54:21 AM, "module": client, "function_name": connect, "line_number": 217, "message": API connection ready}
+{"time": 11/14/2019 03:54:21 AM, "module": ib, "function_name": connect, "line_number": 1631, "message": Synchronization complete}
+{"time": 11/14/2019 03:54:21 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 192, "message": Connected!}
+{"time": 11/14/2019 03:54:27 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 222, "message": [Stock(conId=44652000, symbol='RELIANCE', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='RELIANCE', tradingClass='RELIANCE')]}
+{"time": 11/14/2019 03:54:46 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 247, "message": strDuration:1 D , strBarSize: 15 mins , strWhatToShow: TRADES}
+{"time": 11/14/2019 03:54:46 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 252, "message": dfStockData sample:                     0        1        2        3        4      5    6         7
+0  20191113, 09:15:00  1431.00  1443.85  1430.05  1441.45  44587  824  1436.565
+1  20191113, 09:30:00  1441.55  1451.45  1441.35  1446.00  43605  806  1447.375
+2  20191113, 09:45:00  1445.55  1447.00  1443.20  1444.25  37111  812  1445.075}
+{"time": 11/14/2019 04:00:22 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 170, "message": Connect clicked.}
+{"time": 11/14/2019 04:00:22 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 172, "message": Trying to connect.}
+{"time": 11/14/2019 04:00:22 AM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7497 with clientId 101...}
+{"time": 11/14/2019 04:00:22 AM, "module": client, "function_name": connect, "line_number": 211, "message": Connected}
+{"time": 11/14/2019 04:00:22 AM, "module": client, "function_name": _onSocketHasData, "line_number": 342, "message": Logged on to server version 152}
+{"time": 11/14/2019 04:00:22 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj}
+{"time": 11/14/2019 04:00:22 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:hfarm}
+{"time": 11/14/2019 04:00:22 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:cashfarm}
+{"time": 11/14/2019 04:00:22 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm}
+{"time": 11/14/2019 04:00:22 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:hkhmds}
+{"time": 11/14/2019 04:00:22 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/14/2019 04:00:22 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk}
+{"time": 11/14/2019 04:00:22 AM, "module": client, "function_name": connect, "line_number": 217, "message": API connection ready}
+{"time": 11/14/2019 04:00:22 AM, "module": ib, "function_name": connect, "line_number": 1631, "message": Synchronization complete}
+{"time": 11/14/2019 04:00:22 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 192, "message": Connected!}
+{"time": 11/14/2019 04:00:23 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 222, "message": [Stock(conId=44652000, symbol='RELIANCE', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='RELIANCE', tradingClass='RELIANCE')]}
+{"time": 11/14/2019 04:00:37 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 247, "message": strDuration:1 W , strBarSize: 2 hours , strWhatToShow: TRADES}
+{"time": 11/14/2019 04:00:37 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 252, "message": dfStockData sample:                     0        1        2        3       4       5     6         7
+0  20191107, 09:15:00  1437.15  1444.30  1432.20  1443.6   25479   780  1439.685
+1  20191107, 09:30:00  1443.75  1452.90  1441.40  1447.3  190692  5331  1446.840
+2  20191107, 11:30:00  1447.25  1449.75  1441.85  1442.0  213899  4479  1445.105}
+{"time": 11/14/2019 04:03:53 AM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 14, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/14/2019 04:05:35 AM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 14, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/14/2019 04:05:44 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 170, "message": Connect clicked.}
+{"time": 11/14/2019 04:05:44 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 172, "message": Trying to connect.}
+{"time": 11/14/2019 04:05:44 AM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7497 with clientId 101...}
+{"time": 11/14/2019 04:05:44 AM, "module": client, "function_name": connect, "line_number": 211, "message": Connected}
+{"time": 11/14/2019 04:05:44 AM, "module": client, "function_name": _onSocketHasData, "line_number": 342, "message": Logged on to server version 152}
+{"time": 11/14/2019 04:05:44 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj}
+{"time": 11/14/2019 04:05:44 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:hfarm}
+{"time": 11/14/2019 04:05:44 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:cashfarm}
+{"time": 11/14/2019 04:05:44 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm}
+{"time": 11/14/2019 04:05:44 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:hkhmds}
+{"time": 11/14/2019 04:05:44 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/14/2019 04:05:44 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk}
+{"time": 11/14/2019 04:05:44 AM, "module": client, "function_name": connect, "line_number": 217, "message": API connection ready}
+{"time": 11/14/2019 04:05:44 AM, "module": ib, "function_name": connect, "line_number": 1631, "message": Synchronization complete}
+{"time": 11/14/2019 04:05:44 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 192, "message": Connected!}
+{"time": 11/14/2019 04:05:46 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 222, "message": [Stock(conId=44652000, symbol='RELIANCE', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='RELIANCE', tradingClass='RELIANCE')]}
+{"time": 11/14/2019 04:06:20 AM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 14, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/14/2019 04:06:28 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 170, "message": Connect clicked.}
+{"time": 11/14/2019 04:06:28 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 172, "message": Trying to connect.}
+{"time": 11/14/2019 04:06:28 AM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7497 with clientId 101...}
+{"time": 11/14/2019 04:06:28 AM, "module": client, "function_name": connect, "line_number": 211, "message": Connected}
+{"time": 11/14/2019 04:06:28 AM, "module": client, "function_name": _onSocketHasData, "line_number": 342, "message": Logged on to server version 152}
+{"time": 11/14/2019 04:06:28 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj}
+{"time": 11/14/2019 04:06:28 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:hfarm}
+{"time": 11/14/2019 04:06:28 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:cashfarm}
+{"time": 11/14/2019 04:06:28 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm}
+{"time": 11/14/2019 04:06:28 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:hkhmds}
+{"time": 11/14/2019 04:06:28 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/14/2019 04:06:28 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk}
+{"time": 11/14/2019 04:06:28 AM, "module": client, "function_name": connect, "line_number": 217, "message": API connection ready}
+{"time": 11/14/2019 04:06:28 AM, "module": ib, "function_name": connect, "line_number": 1631, "message": Synchronization complete}
+{"time": 11/14/2019 04:06:28 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 192, "message": Connected!}
+{"time": 11/14/2019 04:06:29 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 222, "message": [Stock(conId=44652000, symbol='RELIANCE', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='RELIANCE', tradingClass='RELIANCE')]}
+{"time": 11/14/2019 04:06:38 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 247, "message": strDuration:1 D , strBarSize: 1 hour , strWhatToShow: TRADES}
+{"time": 11/14/2019 04:06:38 AM, "module": IBKR_Allinone, "function_name": main, "line_number": 252, "message": dfStockData sample:                     0        1        2        3        4       5     6         7
+0  20191113, 09:15:00  1431.00  1443.85  1430.05  1441.45   44587   824  1436.565
+1  20191113, 09:30:00  1441.55  1459.25  1441.35  1456.75  162327  3275  1448.555
+2  20191113, 10:30:00  1456.25  1472.00  1453.00  1464.45  137476  3055  1460.730}
+{"time": 11/14/2019 04:11:04 AM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 14, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/20/2019 09:39:57 PM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 14, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/20/2019 09:40:21 PM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 47, "message": Calling IBKR_Connect_Window now.}
+{"time": 11/20/2019 09:40:21 PM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 21, "message": IBKR:Connect launched}
+{"time": 11/20/2019 09:40:25 PM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 30, "message": Asked to connect.}
+{"time": 11/20/2019 09:40:25 PM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 32, "message": Trying to connect.}
+{"time": 11/20/2019 09:40:25 PM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 33, "message": 127.0.0.1 7497 101}
+{"time": 11/20/2019 09:40:25 PM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7497 with clientId 101...}
+{"time": 11/20/2019 09:40:25 PM, "module": client, "function_name": connect, "line_number": 211, "message": Connected}
+{"time": 11/20/2019 09:40:25 PM, "module": client, "function_name": _onSocketHasData, "line_number": 342, "message": Logged on to server version 152}
+{"time": 11/20/2019 09:40:25 PM, "module": client, "function_name": connect, "line_number": 217, "message": API connection ready}
+{"time": 11/20/2019 09:40:25 PM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj}
+{"time": 11/20/2019 09:40:25 PM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:hfarm}
+{"time": 11/20/2019 09:40:25 PM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:cashfarm}
+{"time": 11/20/2019 09:40:25 PM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm}
+{"time": 11/20/2019 09:40:25 PM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:hkhmds}
+{"time": 11/20/2019 09:40:25 PM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/20/2019 09:40:25 PM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk}
+{"time": 11/20/2019 09:40:25 PM, "module": ib, "function_name": connect, "line_number": 1631, "message": Synchronization complete}
+{"time": 11/20/2019 09:40:25 PM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 47, "message": Connected!}
+{"time": 11/20/2019 09:40:27 PM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 26, "message": exit hit}
+{"time": 11/20/2019 09:40:40 PM, "module": MySQL_Allinone, "function_name": main, "line_number": 66, "message": DBase connected: mysql+pymysql://algouser:***@localhost/mktdata}
+{"time": 11/20/2019 09:41:49 PM, "module": IBKR_Allinone, "function_name": main, "line_number": 170, "message": Connect clicked.}
+{"time": 11/20/2019 09:41:49 PM, "module": IBKR_Allinone, "function_name": main, "line_number": 172, "message": Trying to connect.}
+{"time": 11/20/2019 09:41:49 PM, "module": ib, "function_name": connectAsync, "line_number": 1641, "message": Already connected}
+{"time": 11/20/2019 09:41:49 PM, "module": IBKR_Allinone, "function_name": main, "line_number": 192, "message": Connected!}
+{"time": 11/20/2019 09:42:20 PM, "module": ib, "function_name": disconnect, "line_number": 268, "message": Disconnecting from 127.0.0.1:7497, 111 B sent in 7 messages, 13.3 kB received in 283 messages, session time 143 s.}
+{"time": 11/20/2019 09:42:20 PM, "module": client, "function_name": disconnect, "line_number": 237, "message": Disconnecting}
+{"time": 11/21/2019 02:09:18 AM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 14, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/21/2019 11:54:46 AM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 14, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/21/2019 11:54:54 AM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 47, "message": Calling IBKR_Connect_Window now.}
+{"time": 11/21/2019 11:54:54 AM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 21, "message": IBKR:Connect launched}
+{"time": 11/21/2019 11:54:58 AM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 30, "message": Asked to connect.}
+{"time": 11/21/2019 11:54:58 AM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 32, "message": Trying to connect.}
+{"time": 11/21/2019 11:54:58 AM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 33, "message": 127.0.0.1 7496 101}
+{"time": 11/21/2019 11:54:58 AM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7496 with clientId 101...}
+{"time": 11/21/2019 11:54:58 AM, "module": client, "function_name": disconnect, "line_number": 237, "message": Disconnecting}
+{"time": 11/21/2019 11:54:58 AM, "module": client, "function_name": connectAsync, "line_number": 225, "message": API connection failed: ConnectionRefusedError(111, "Connect call failed ('127.0.0.1', 7496)")}
+{"time": 11/21/2019 11:54:58 AM, "module": client, "function_name": connectAsync, "line_number": 228, "message": Make sure API port on TWS/IBG is open}
+{"time": 11/21/2019 11:54:58 AM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 41, "message": Connection Refused!}
+{"time": 11/21/2019 11:55:03 AM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 30, "message": Asked to connect.}
+{"time": 11/21/2019 11:55:03 AM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 32, "message": Trying to connect.}
+{"time": 11/21/2019 11:55:03 AM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 33, "message": 127.0.0.1 7497 101}
+{"time": 11/21/2019 11:55:03 AM, "module": client, "function_name": connect, "line_number": 200, "message": Connecting to 127.0.0.1:7497 with clientId 101...}
+{"time": 11/21/2019 11:55:03 AM, "module": client, "function_name": connect, "line_number": 211, "message": Connected}
+{"time": 11/21/2019 11:55:03 AM, "module": client, "function_name": _onSocketHasData, "line_number": 342, "message": Logged on to server version 152}
+{"time": 11/21/2019 11:55:03 AM, "module": client, "function_name": connect, "line_number": 217, "message": API connection ready}
+{"time": 11/21/2019 11:55:03 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm.nj}
+{"time": 11/21/2019 11:55:03 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:hfarm}
+{"time": 11/21/2019 11:55:03 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:cashfarm}
+{"time": 11/21/2019 11:55:03 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2104, reqId -1: Market data farm connection is OK:usfarm}
+{"time": 11/21/2019 11:55:03 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:hkhmds}
+{"time": 11/21/2019 11:55:03 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2106, reqId -1: HMDS data farm connection is OK:ushmds}
+{"time": 11/21/2019 11:55:03 AM, "module": wrapper, "function_name": error, "line_number": 923, "message": Warning 2158, reqId -1: Sec-def data farm connection is OK:secdefhk}
+{"time": 11/21/2019 11:55:03 AM, "module": ib, "function_name": connect, "line_number": 1631, "message": Synchronization complete}
+{"time": 11/21/2019 11:55:03 AM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 47, "message": Connected!}
+{"time": 11/21/2019 11:55:05 AM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 26, "message": exit hit}
+{"time": 11/21/2019 11:55:08 AM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 76, "message": Calling IBKR_Historical_Window now.}
+{"time": 11/21/2019 11:55:26 AM, "module": IBKR_Historical_Window, "function_name": main, "line_number": 75, "message": [Stock(conId=44652000, symbol='RELIANCE', exchange='NSE', primaryExchange='NSE', currency='INR', localSymbol='RELIANCE', tradingClass='RELIANCE')]}
+{"time": 11/21/2019 11:55:29 AM, "module": IBKR_Historical_Window, "function_name": main, "line_number": 81, "message": strDuration:1 D , strBarSize: 10 mins , strWhatToShow: TRADES}
+{"time": 11/21/2019 11:55:30 AM, "module": IBKR_Historical_Window, "function_name": main, "line_number": 86, "message": dfStockData sample:                     0       1       2        3       4      5    6         7
+0  20191121, 09:15:00  1544.0  1555.7  1540.30  1550.5   8738  289  1548.935
+1  20191121, 09:20:00  1550.4  1550.6  1538.35  1540.9  23613  560  1543.345
+2  20191121, 09:30:00  1540.8  1540.8  1534.20  1536.0  20390  565  1536.360}
+{"time": 11/21/2019 11:56:00 AM, "module": IBKR_Historical_Window, "function_name": main, "line_number": 61, "message": exit hit}
+{"time": 11/21/2019 11:56:13 AM, "module": ib, "function_name": disconnect, "line_number": 268, "message": Disconnecting from 127.0.0.1:7497, 255 B sent in 9 messages, 16.9 kB received in 292 messages, session time 75.2 s.}
+{"time": 11/21/2019 11:56:13 AM, "module": client, "function_name": disconnect, "line_number": 237, "message": Disconnecting}
+{"time": 11/21/2019 12:09:12 PM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 15, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/21/2019 12:12:05 PM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 15, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/21/2019 12:13:22 PM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 15, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/21/2019 12:34:16 PM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 15, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/21/2019 01:32:51 PM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 15, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/21/2019 01:33:14 PM, "module": MySQL_Allinone, "function_name": main, "line_number": 66, "message": DBase connected: mysql+pymysql://algouser:***@localhost/mktdata}
+{"time": 11/21/2019 01:36:07 PM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 15, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/21/2019 01:36:30 PM, "module": MySQL_Allinone, "function_name": main, "line_number": 66, "message": DBase connected: mysql+pymysql://algouser:***@localhost/mktdata}
+{"time": 11/21/2019 01:46:54 PM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 15, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/21/2019 01:48:26 PM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 15, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/21/2019 01:50:16 PM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 15, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/21/2019 01:51:45 PM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 15, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/21/2019 02:24:14 PM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 15, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/21/2019 02:24:22 PM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 52, "message": Calling IBKR_Connect_Window now.}
+{"time": 11/21/2019 02:24:22 PM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 23, "message": IBKR:Connect launched}
+{"time": 11/21/2019 02:24:26 PM, "module": IBKR_Connect_Window, "function_name": main, "line_number": 28, "message": exit hit}
+{"time": 11/21/2019 02:28:28 PM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 15, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/21/2019 02:29:53 PM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 15, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/21/2019 02:30:24 PM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 15, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/21/2019 03:29:37 PM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 15, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/21/2019 03:38:54 PM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 15, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/21/2019 03:40:46 PM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 15, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/21/2019 03:52:37 PM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 15, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
+{"time": 11/21/2019 03:53:42 PM, "module": SwissAlgoKnife, "function_name": <module>, "line_number": 15, "message": ===SWISS ALGO KNIFE RUN BEGINS HERE===}
