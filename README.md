@@ -27,11 +27,13 @@ WARNING: Based on https://github.com/PySimpleGUI/, these are one shot windows. P
 - SwissAlgoKnife.py - just an entry point to the application.
 - SAKModules - Folder containing all utilities. Each utility is designed to also be a standalone file.
 - IBKRAllinone.py - All IBKR functions in one file: Connect, get OHLC Data, get Tick Data
-- MySQL_Allinone.py - All IBKR functions in one file: Connect, store OHLC Data, store Tick Data. Retrieval function WIP.
+- MySQL_Allinone.py - All MySQL functions in one file: Connect, store OHLC Data, store Tick Data. Retrieval function WIP.
 - IBKR_Connect_Window.py - older window. To connect to IBKR.
 - IBKR_Historical_Window.py - older window. To get OHLC Data.
 - IBKR_Tick_Data_Window.py - older window. To get tick Data.
 - ALPACA_Connect.py - WIP.
+- SAK_Zerodha.py - coming sooner.
+- SAK_Fyers.py - coming later.
 - UPSTOX_Connect_Window.py - frozen due to Upstox discontinuing API.
 - __pycache__ - don't touch.
 - Secret - folder for credential files
@@ -59,6 +61,10 @@ Written using SQLAlchemy.
 _Frozen due to unavailability of Upstox Historical API_
 
 **Zerodha Utilities**
+
+_WIP_
+
+**Fyers Utilities**
 
 _WIP_
 
