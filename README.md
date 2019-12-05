@@ -15,6 +15,7 @@ WARNING: Based on https://github.com/PySimpleGUI/, these are one shot windows. P
             |-IBKR_Tick_Data_Window.py
             |-ALPACA_Connect.py
             |-UPSTOX_Connect_Window.py
+	    |-SAK_NSEOptionChainExtractor.py
             |-__pycache__
         |-Secret
             |-Cred.py
@@ -27,10 +28,11 @@ WARNING: Based on https://github.com/PySimpleGUI/, these are one shot windows. P
 - SwissAlgoKnife.py - just an entry point to the application.
 - SAKModules - Folder containing all utilities. Each utility is designed to also be a standalone file.
 - IBKRAllinone.py - All IBKR functions in one file: Connect, get OHLC Data, get Tick Data
-- MySQL_Allinone.py - All MySQL functions in one file: Connect, store OHLC Data, store Tick Data. Retrieval function WIP.
+- MySQL_Allinone.py - All MySQL functions in one file: Connect, store OHLC Data, store Tick Data. (TODO: (1) Retrieval function WIP, (2) store Option Chain Data.)
 - IBKR_Connect_Window.py - older window. To connect to IBKR.
 - IBKR_Historical_Window.py - older window. To get OHLC Data.
 - IBKR_Tick_Data_Window.py - older window. To get tick Data.
+- SAK_NSEOptionChainExtractor.py - crawls and collects data from NSE Options Chain pages. Creates a separate CSV file for each symbol. Will keep appending to CSV if file isn't removed from directory. (TODO: (1) Subdivide Downloads directory into different folders for different types of downloaded data, (2) pick up list_identifiers from a file instead of hardcoded values.)
 - ALPACA_Connect.py - WIP.
 - SAK_Zerodha.py - coming sooner.
 - SAK_Fyers.py - coming later.
