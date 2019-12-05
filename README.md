@@ -15,7 +15,7 @@ WARNING: Based on https://github.com/PySimpleGUI/, these are one shot windows. P
             |-IBKR_Tick_Data_Window.py
             |-ALPACA_Connect.py
             |-UPSTOX_Connect_Window.py
-	    |-SAK_NSEOptionChainExtractor.py
+            |-SAK_NSEOptionChainExtractor.py
             |-__pycache__
         |-Secret
             |-Cred.py
