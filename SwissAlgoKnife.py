@@ -29,11 +29,23 @@ layout = [
                 sg.Text('MySQL', key='_UPSTOX_Connection_Status_', text_color='#FF0000')
             ],
             [sg.Text('-----------------------------', key='_OUTPUT_')],
-            [sg.Button('IBKR: Connect', border_width=0, size=(25,1)), sg.Button('UPSTOX: Connect', border_width=0, size=(25,1), disabled=True)
-                    , sg.Button('MySQL Utilities', border_width=0, size=(25,1))
-                    , sg.Button('HDF5 Utilities', border_width=0, size=(25,1), disabled=True)],
-            [sg.Button('IBKR: Historical OHLC', border_width=0, size=(25,1))],
-            [sg.Button('IBKR: Historical Tick Data', border_width=0, size=(25,1))],
+            [
+                sg.Button('IBKR: Connect', border_width=0, size=(25,1)), 
+                sg.Button('UPSTOX: Connect', border_width=0, size=(25,1), disabled=True),
+                sg.Button('MySQL Utilities', border_width=0, size=(25,1))
+            ],
+            [
+                sg.Button('IBKR: Historical OHLC', border_width=0, size=(25,1)),
+                sg.Button('UPSTOX: Historical OHLC', border_width=0, size=(25,1), disabled=True),
+                sg.Button('HDF5 Utilities', border_width=0, size=(25,1), disabled=True)
+                
+            ],
+            [
+                sg.Button('IBKR: Historical Tick Data', border_width=0, size=(25,1)),
+                sg.Button('UPSTOX: Historical Tick Data', border_width=0, size=(25,1), disabled=True),
+                sg.Button('NSE Option Chain Extractor', border_width=0, size=(25,1))
+            
+            ],
             [sg.Button('IBKR: All In One', border_width=0, size=(25,1))],
             [sg.Text('     ')],
             [
@@ -93,6 +105,10 @@ while True:
     if ev1 == 'IBKR: All In One':
         from SAKModules import IBKR_Allinone
         IBKR_Allinone.main(ib)
+
+    if ev1 == 'NSE Option Chain Extractor':
+        from SAKModules import SAK_NSEOptionChainExtractor
+        SAK_NSEOptionChainExtractor.main()
 
     if ev1 == 'Help!':
         with open(os.getcwd() + '/SAKModules/help.txt', 'r') as fopen:
