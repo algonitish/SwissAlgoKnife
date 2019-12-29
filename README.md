@@ -1,7 +1,7 @@
 # SwissAlgoKnife
 Utilities to automate small daily tasks for algo traders.
 
-WARNING: Based on https://github.com/PySimpleGUI/, these are one shot windows. Plan your workflow, or be prepared to open and close the application in entirety since a window once closed cannot be opened again. As soon as there's a solution for this, this warning will be removed.
+~~WARNING: Based on https://github.com/PySimpleGUI/, these are one shot windows. Plan your workflow, or be prepared to open and close the application in entirety since a window once closed cannot be opened again. As soon as there's a solution for this, this warning will be removed.~~ Latest change made to SwissAlgoKnife.py (2019-12-29) allow windows to opened and close multiple times. The change was to use read-execute on the files contained in SAKModules directory, rather than importing them at the click of a button. This also allows new modules to be added to the project without any changes needed in the front end.
 
 **Project Structure:**
 
